@@ -11,6 +11,9 @@ Contents
   (report, 11 evidence files, 3 helper scripts, extracted payload binaries).
 * `ANALYSIS_FULL_READTHROUGH.md` — everything in that package, read in full,
   re-verified against the actual bytes, and extended. **Start here.**
+* `SECURITY_CREDENTIAL_RISK.md` — focused "does it steal passwords?" assessment
+  (complete API inventory of the 98 injected classes, native JNI surface,
+  clipboard finding, what does leave the device).
 * `analysis/verification.json` — machine-readable verification ledger.
 * `tools/` — the scripts used for the verification pass:
   * `axml.py` — dependency-free Android binary XML (manifest / res-xml) parser

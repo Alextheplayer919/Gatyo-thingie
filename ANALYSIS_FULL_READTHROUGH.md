@@ -367,6 +367,11 @@ confidence) to **strongly indicated** — a Discord webhook `execute` call with 
 attached file is exactly this shape. It is still an inference: any compatible endpoint would
 accept the same body.
 
+Note on the `"username"` key: the value stored into it is the literal string `"Gatyo Telemetry"`
+(it is loaded immediately before the key lookup), i.e. it is the Discord *bot display name*, not
+the player's account name. See `SECURITY_CREDENTIAL_RISK.md` for the full credential-theft
+assessment.
+
 ### 9.3 What is not determined
 
 * **Destination URL.** Not in plaintext, Base64, hex, reversed, XOR/shift in the payload, the
