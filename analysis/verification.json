@@ -1,0 +1,479 @@
+{
+  "apk": "/tmp/apkout/Gatyo-1.21.111-Iris-build118.apk",
+  "apk_sha256": "2d985a17b9885a6e3918b8b15c9f29aae593ed8662e9356297cf5af58ab7d45f",
+  "apk_matches_expected": true,
+  "apk_size": 330178175,
+  "file_count": 33397,
+  "hash_ledger": {
+    "AndroidManifest.xml": {
+      "sha256": "6a2527f35035b46db9ee11d98c434baa45988884521c59ac945c0a32a8256ad9",
+      "expected": "6a2527f35035b46db9ee11d98c434baa45988884521c59ac945c0a32a8256ad9",
+      "match": true
+    },
+    "classes.dex": {
+      "sha256": "46ce0d1571e120693de0209cc4d9fc8c4eb80cc6e6a7515aa6e78b32f1d9136a",
+      "expected": "46ce0d1571e120693de0209cc4d9fc8c4eb80cc6e6a7515aa6e78b32f1d9136a",
+      "match": true
+    },
+    "classes2.dex": {
+      "sha256": "63776a5512d17768e329f5821ac4b1d22d59692f80538d78c5480aed04d25a36",
+      "expected": "63776a5512d17768e329f5821ac4b1d22d59692f80538d78c5480aed04d25a36",
+      "match": true
+    },
+    "classes3.dex": {
+      "sha256": "52819d218978f69afd3fc0831ab8c9826f5c08078999c39615d4606ceaf524e1",
+      "expected": "52819d218978f69afd3fc0831ab8c9826f5c08078999c39615d4606ceaf524e1",
+      "match": true
+    },
+    "classes4.dex": {
+      "sha256": "959476ee3b317f41453c4bc973fd2341dfbb8e98260e2a89c9d0b2afb791b0ba",
+      "expected": "959476ee3b317f41453c4bc973fd2341dfbb8e98260e2a89c9d0b2afb791b0ba",
+      "match": true
+    },
+    "classes5.dex": {
+      "sha256": "9f9ea5a440ab66f2b60f12509679b1780c017f3921ea25a7691a46d19741b9ec",
+      "expected": "9f9ea5a440ab66f2b60f12509679b1780c017f3921ea25a7691a46d19741b9ec",
+      "match": true
+    },
+    "classes6.dex": {
+      "sha256": "816ed03ab02c29648f1ab3ca94f3dd76458c6ae9d393d7938a310668f39c4aa3",
+      "expected": "816ed03ab02c29648f1ab3ca94f3dd76458c6ae9d393d7938a310668f39c4aa3",
+      "match": true
+    },
+    "lib/arm64-v8a/libReverseSigma.so": {
+      "sha256": "ecb779812304c09745cfd343b638dda3b0e16a85e406a7b314aa339fb346d9e6",
+      "expected": "ecb779812304c09745cfd343b638dda3b0e16a85e406a7b314aa339fb346d9e6",
+      "match": true
+    },
+    "assets/assets/icu/demo.dat": {
+      "sha256": "ecb779812304c09745cfd343b638dda3b0e16a85e406a7b314aa339fb346d9e6",
+      "expected": "ecb779812304c09745cfd343b638dda3b0e16a85e406a7b314aa339fb346d9e6",
+      "match": true
+    },
+    "lib/arm64-v8a/libminecraftpe.so": {
+      "sha256": "65b9a43178a8b2cde19b6e000613b1453f8f2ea964b094faaf6e206ef041fed1",
+      "expected": "65b9a43178a8b2cde19b6e000613b1453f8f2ea964b094faaf6e206ef041fed1",
+      "match": true
+    },
+    "META-INF/MANIFEST.MF": {
+      "sha256": "7d1eaef6b16ac71572f2e648de342ec73b350db24ca54ad77cedad9b97a69ed2",
+      "expected": "7d1eaef6b16ac71572f2e648de342ec73b350db24ca54ad77cedad9b97a69ed2",
+      "match": true
+    },
+    "META-INF/ANDROIDD.SF": {
+      "sha256": "241bba8b181a5f6e8f073ac8ef28f98068e3674c02c93b6998a71a7b259aae79",
+      "expected": "241bba8b181a5f6e8f073ac8ef28f98068e3674c02c93b6998a71a7b259aae79",
+      "match": true
+    },
+    "META-INF/ANDROIDD.RSA": {
+      "sha256": "ee1bbe2f118dfe246d3f3d1020c06f156a325bbbb6ba93acd5862063a08917f5",
+      "expected": "ee1bbe2f118dfe246d3f3d1020c06f156a325bbbb6ba93acd5862063a08917f5",
+      "match": true
+    }
+  },
+  "hashes_all_match": true,
+  "dex_class_counts": {
+    "classes.dex": 8692,
+    "classes2.dex": 8876,
+    "classes3.dex": 158,
+    "classes4.dex": 545,
+    "classes5.dex": 83,
+    "classes6.dex": 15
+  },
+  "manifest": {
+    "package": "com.mojang.minecraftpe",
+    "version_code": 952111101,
+    "version_name": "1.21.111.1",
+    "min_sdk": 26,
+    "target_sdk": 34,
+    "app_label": "Gatyo",
+    "application_class": "com.modscraft.mcpepatch.KillerApplication",
+    "permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.INTERNET",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_MEDIA_IMAGES",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "com.android.vending.BILLING",
+      "com.android.vending.CHECK_LICENSE",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    ],
+    "components": [
+      {
+        "kind": "provider",
+        "name": "com.mojang.minecraftpe.platforms.Bootstrap",
+        "exported": false,
+        "permission": null,
+        "authorities": "com.mojang.minecraftpe.platforms.bootstrap",
+        "init_order": 100,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.mojang.minecraftpe.MainActivity",
+        "exported": true,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": "Gatyo"
+      },
+      {
+        "kind": "activity",
+        "name": "com.microsoft.xal.browser.IntentHandler",
+        "exported": true,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.microsoft.xal.browser.BrowserLaunchActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.microsoft.xal.browser.WebKitWebViewController",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "receiver",
+        "name": "com.amazon.device.iap.ResponseReceiver",
+        "exported": true,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "service",
+        "name": "com.mojang.minecraftpe.NotificationListenerService",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "service",
+        "name": "com.mojang.minecraftpe.ImportService",
+        "exported": true,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "provider",
+        "name": "androidx.core.content.FileProvider",
+        "exported": false,
+        "permission": null,
+        "authorities": "com.mojang.minecraftpe.fileprovider",
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "receiver",
+        "name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "exported": true,
+        "permission": "com.google.android.c2dm.permission.SEND",
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "service",
+        "name": "com.google.firebase.messaging.FirebaseMessagingService",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "service",
+        "name": "com.google.firebase.components.ComponentDiscoveryService",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.braze.ui.BrazeWebViewActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.braze.ui.activities.BrazeFeedActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.braze.ui.activities.ContentCardsActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.braze.push.NotificationTrampolineActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "receiver",
+        "name": "com.braze.push.BrazePushReceiver",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.common.api.GoogleApiActivity",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "provider",
+        "name": "com.google.firebase.provider.FirebaseInitProvider",
+        "exported": false,
+        "permission": null,
+        "authorities": "com.mojang.minecraftpe.firebaseinitprovider",
+        "init_order": 100,
+        "label": null
+      },
+      {
+        "kind": "provider",
+        "name": "androidx.startup.InitializationProvider",
+        "exported": false,
+        "permission": null,
+        "authorities": "com.mojang.minecraftpe.androidx-startup",
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "service",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "exported": false,
+        "permission": "android.permission.BIND_JOB_SERVICE",
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      },
+      {
+        "kind": "receiver",
+        "name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "exported": false,
+        "permission": null,
+        "authorities": null,
+        "init_order": null,
+        "label": null
+      }
+    ],
+    "meta_data_keys": [
+      "android.app.lib_name",
+      "game_display_name",
+      "game_icon",
+      "appcenter_android_id",
+      "io.sentry.anr.enable",
+      "io.sentry.anr.timeout-interval-millis",
+      "xperiaplayoptimized_content",
+      "appcenter_android_trial_id",
+      "com.google.android.gms.version",
+      "android.support.FILE_PROVIDER_PATHS",
+      "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar",
+      "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar",
+      "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar",
+      "com.google.android.play.billingclient.version",
+      "androidx.emoji2.text.EmojiCompatInitializer",
+      "androidx.lifecycle.ProcessLifecycleInitializer",
+      "backend:com.google.android.datatransport.cct.CctBackendFactory"
+    ],
+    "network_security_config": "@0x7f100003",
+    "request_legacy_external_storage": true,
+    "preserve_legacy_external_storage": true,
+    "has_fragile_user_data": true
+  },
+  "network_security_config": [
+    {
+      "tag": "network-security-config"
+    },
+    {
+      "tag": "base-config",
+      "cleartextTrafficPermitted": true
+    },
+    {
+      "tag": "trust-anchors"
+    },
+    {
+      "tag": "certificates",
+      "src": "system"
+    },
+    {
+      "tag": "debug-overrides"
+    },
+    {
+      "tag": "trust-anchors"
+    },
+    {
+      "tag": "certificates",
+      "src": "user"
+    }
+  ],
+  "signatures": {
+    "cd_offset": 326037504,
+    "cd_size": 4140649,
+    "signing_block_magic": "APK Sig Block 42",
+    "signing_block_size": 4088,
+    "schemes": {
+      "v2": 1454,
+      "v2_detail": {
+        "signer_cert_sha256": "a725ac5acafc0329fc6acd3cc73fd6a095cda431667d2f69b8bcd39d65af35e8"
+      },
+      "v3": 1454,
+      "v3_detail": {
+        "signer_cert_sha256": "a725ac5acafc0329fc6acd3cc73fd6a095cda431667d2f69b8bcd39d65af35e8",
+        "min_sdk": 24,
+        "max_sdk": 2147483647
+      },
+      "verity_padding": 1132
+    }
+  },
+  "v1_digests": {
+    "entries_verified": 33394,
+    "mismatch": 0,
+    "absent": 0,
+    "problems": [],
+    "sf_manifest_digest_ok": true
+  },
+  "native": {
+    "path": "lib/arm64-v8a/libReverseSigma.so",
+    "size": 6114384,
+    "elf_magic": "7f454c46",
+    "needed_libs": [
+      "liblog.so",
+      "libz.so",
+      "libandroid.so",
+      "libEGL.so",
+      "libGLESv2.so",
+      "libm.so",
+      "libdl.so",
+      "libc.so"
+    ],
+    "network_imports_found": [],
+    "gatyo_gato_string_hits": 119,
+    "gatyo_gato_first_hits": [
+      {
+        "offset": "0x3db9c",
+        "text": "Hits and explosions don't move it, like GatoClient's FakePlayer: it stays put to"
+      },
+      {
+        "offset": "0x4103a",
+        "text": "GatoClient flight"
+      },
+      {
+        "offset": "0x4108d",
+        "text": "Welcome to Gatyo"
+      },
+      {
+        "offset": "0x417b7",
+        "text": "Traps other players with obsidian (or netherite): walls, lid and an optional flo"
+      },
+      {
+        "offset": "0x41dda",
+        "text": "GatyoTelemetry"
+      },
+      {
+        "offset": "0x42879",
+        "text": "An effect where a player dies, like GatoClient's DeathEffect."
+      }
+    ],
+    "urls_in_binary": [
+      "http://www.apache.org/licenses/LICENSE-2.0",
+      "https://android.googlesource.com/toolchain/clang",
+      "https://android.googlesource.com/toolchain/llvm",
+      "https://android.googlesource.com/toolchain/llvm-project",
+      "https://discord.gg/Hpzua3uQmV"
+    ],
+    "exports": {
+      "dobby": 7,
+      "jni_platform2": 18,
+      "jni_onload": 1,
+      "jni_onunload": 1
+    },
+    "crash_strings": {
+      "gatyo_crash.txt": 1,
+      "hooks %u/63": 1,
+      "Iris requiere Bedrock": 1,
+      "Dispatcher Iris incompatible": 1,
+      "vtable no esta": 1
+    },
+    "identical_to_asset": true
+  },
+  "stock_game_lib": {
+    "size": 280201408,
+    "references_reversesigma": 0,
+    "references_gatyo": 0
+  }
+}
